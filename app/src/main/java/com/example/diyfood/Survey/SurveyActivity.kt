@@ -5,8 +5,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Button
+import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
+import com.example.diyfood.R
 
 class SurveyActivity : AppCompatActivity() {
 
@@ -24,6 +27,7 @@ class SurveyActivity : AppCompatActivity() {
 
         val categories = arrayOf("Makanan Berat", "Makanan Ringan", "Makanan Manis")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, categories)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         categorySpinner.adapter = adapter
 
         categorySpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -40,8 +44,9 @@ class SurveyActivity : AppCompatActivity() {
             if (flavor.isEmpty()) {
                 Toast.makeText(this, "Please enter a flavor", Toast.LENGTH_SHORT).show()
             } else {
-                // Do something with the flavor and category
-                Toast.makeText(this, "Flavor: $flavor, Category: ${categorySpinner.selectedItem}", Toast.LENGTH_SHORT).show()
+                val selectedCategory = categorySpinner.selectedItem.toString()
+                Toast.makeText(this, "Flavor: $flavor, Category: $selectedCategory", Toast.LENGTH_SHORT).show()
+                // Perform any additional actions here
             }
         }
     }

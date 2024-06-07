@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-
-    Open In Editor
-    Edit
-    Copy code
     <TextView
         android:id="@+id/survey_title"
         android:layout_width="163dp"
@@ -23,7 +22,7 @@
         android:id="@+id/category_spinner"
         android:layout_width="match_parent"
         android:layout_height="82dp"
-        android:prompt="Makanan Berat" />
+        android:prompt="@string/prompt_makanan_berat" />
 
     <EditText
         android:id="@+id/flavor_edit_text"
