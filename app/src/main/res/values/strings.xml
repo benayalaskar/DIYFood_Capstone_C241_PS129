@@ -3,5 +3,13 @@
     <string name="prompt_makanan_berat">Makanan Berat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1">Jelajahi makanan  terbaik Indonesia di Jogja</string>
+    <string name="title2">Jogja bagian dari jantung kuliner Indonesia!</string>
+    <string name="title3">Temukan keajaiban rasa yang mengejutkan di Jogja!</string>
+    <string name="desc1">“Kamu bisa mendapatkan rekomendasi makanan yang kamu inginkan disini!”</string>
+    <string name="desc2">Setiap cita rasa memberikan kenangan dan perasaan tersendiri terhadap penikmatnya.</string>
+    <string name="desc3">“Nikmati setiap kuliner Indonesia yang ada di jogja sesuai selera kamu!”</string>
+    <string name="home">Home</string>
+    <string name="exit">Exit</string>
 
 </resources>

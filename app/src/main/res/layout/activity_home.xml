@@ -5,14 +5,16 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Kuliner Berdasarkan Seleramu"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:fontFamily="@font/regular"
+        android:gravity="left"
         android:padding="10dp"
-        android:textColor="@android:color/black"/>
+        android:text="Kuliner Berdasarkan Seleramu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,47 +29,49 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sate_klathak"
+                android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:adjustViewBounds="true"/>
+                android:src="@drawable/sate_klathak" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bold"
+                android:padding="10dp"
                 android:text="Sate Klathak"
-                android:textSize="16sp"
-                android:layout_gravity="center"
-                android:padding="10dp"/>
+                android:textSize="16sp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/nasi_gudeg"
+                android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:adjustViewBounds="true"/>
+                android:src="@drawable/nasi_gudeg" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nasi Gudeg"
-                android:textSize="16sp"
                 android:layout_gravity="center"
-                android:padding="10dp"/>
+                android:fontFamily="@font/bold"
+                android:padding="10dp"
+                android:text="Nasi Gudeg"
+                android:textSize="16sp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/nasi_gudeg"
+                android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:adjustViewBounds="true"/>
+                android:src="@drawable/nasi_gudeg" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nasi Gudeg"
-                android:textSize="16sp"
                 android:layout_gravity="center"
-                android:padding="10dp"/>
+                android:padding="10dp"
+                android:text="Nasi Gudeg"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -76,22 +80,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/home_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/regular"
+            android:text="@string/home" />
 
         <Button
             android:id="@+id/exit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exit"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/regular"
+            android:text="@string/exit" />
 
     </LinearLayout>
 

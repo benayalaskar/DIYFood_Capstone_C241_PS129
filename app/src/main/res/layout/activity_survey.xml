@@ -2,27 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical"
-    android:padding="24dp"
-    android:background="@android:color/white">
+    android:padding="24dp">
 
     <TextView
         android:id="@+id/survey_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
         android:text="Survey"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Silahkan pilih salah satu kategori kuliner yang pas untuk anda!"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp" />
+        android:layout_marginBottom="30dp"
+        android:text="Silahkan pilih salah satu kategori kuliner yang pas untuk anda!" />
 
     <Spinner
         android:id="@+id/category_spinner"
@@ -36,25 +36,26 @@
         android:id="@+id/flavor_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan rasa yang kamu inginkan!"
-        android:inputType="text"
         android:layout_marginBottom="20dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:hint="Masukkan rasa yang kamu inginkan!"
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/example_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Seperti asin, berkuah, pedas."
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:text="Seperti asin, berkuah, pedas." />
 
     <Button
         android:id="@+id/mulai_button"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/primary"
         android:padding="1dp"
         android:text="MULAI" />
 </LinearLayout>
