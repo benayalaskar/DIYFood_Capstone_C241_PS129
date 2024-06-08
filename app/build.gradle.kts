@@ -49,7 +49,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    //Welcome page dots indicator
+    //WelcomeSession page dots indicator
     implementation("com.tbuonomo:dotsindicator:5.0")
 
 }
