@@ -1,5 +1,6 @@
 package com.example.diyfood.Survey
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,6 +10,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
+import com.example.diyfood.Homepage.HomeActivity
 import com.example.diyfood.R
 
 class SurveyActivity : AppCompatActivity() {
@@ -46,7 +48,9 @@ class SurveyActivity : AppCompatActivity() {
             } else {
                 val selectedCategory = categorySpinner.selectedItem.toString()
                 Toast.makeText(this, "Flavor: $flavor, Category: $selectedCategory", Toast.LENGTH_SHORT).show()
-                // Perform any additional actions here
+                // Intent to navigate to HomeActivity
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
             }
         }
     }
