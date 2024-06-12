@@ -14,5 +14,5 @@ In summary, our culinary recommendation application aims to not only meet the ne
 # UserFlow Apps
 ![image](https://github.com/benayalaskar/DIYFood_Capstone_C241_PS129/assets/91442171/4bd8e835-b967-4849-b34c-1bc5ce2a89e7)
 
-# Mockup Design
+# The App
 ![mockup design](https://github.com/benayalaskar/DIYFood_Capstone_C241_PS129/assets/91442171/5582cd11-ecc2-4c9c-8fe6-d505c0593ccd)
