@@ -11,6 +11,7 @@ import com.example.diyfood.Survey.SurveyActivity
 import com.example.diyfood.WelcomeSession.FragmentWelcome1
 import com.example.diyfood.WelcomeSession.FragmentWelcome2
 import com.example.diyfood.WelcomeSession.FragmentWelcome3
+import com.example.diyfood.WelcomeSession.FragmentWelcome4
 import com.example.diyfood.databinding.ActivityMainBinding
 
 
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(FragmentWelcome1(), "1st")
         adapter.addFragment(FragmentWelcome2(), "2st")
         adapter.addFragment(FragmentWelcome3(), "3st")
+        adapter.addFragment(FragmentWelcome4(), "4st")
 
         viewPager.adapter = adapter
         dotsIndicator.setViewPager(viewPager)
