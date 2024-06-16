@@ -11,6 +11,12 @@ Moreover, we see this application as an opportunity to promote and preserve Jogj
 
 In summary, our culinary recommendation application aims to not only meet the needs of tourists but also to celebrate and preserve the culinary heritage of Jogja for future generations to enjoy.
 
+# Steps to build the project
+1. Collect Culinary and restaurant data
+2. Make synthetic input data
+3. Create machine learning model
+4. Create a Flask API to use the model you have created and deploy in google cloud run
+5. Implement the model you have deployed to the mobile application
 
 
 # UserFlow Apps
@@ -20,3 +26,6 @@ In summary, our culinary recommendation application aims to not only meet the ne
 
 # The App
 ![mockup design](https://github.com/benayalaskar/DIYFood_Capstone_C241_PS129/assets/91442171/5582cd11-ecc2-4c9c-8fe6-d505c0593ccd)
+
+
+
