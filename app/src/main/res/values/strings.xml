@@ -11,5 +11,7 @@
     <string name="desc3">“Nikmati setiap kuliner Indonesia yang ada di jogja sesuai selera kamu!”</string>
     <string name="home">Home</string>
     <string name="exit">Exit</string>
+    <string name="inforasa">Masukkan rasa yang kamu inginkan! Seperti asin, berkuah, pedas.</string>
+    <string name="kategori_info">Silahkan pilih salah satu kategori kuliner yang pas untuk anda!</string>
 
 </resources>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
@@ -11,18 +13,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="26dp"
         android:text="Survey"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
-        android:text="Silahkan pilih salah satu kategori kuliner yang pas untuk anda!" />
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/kategori_info"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/category_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/category_spinner"
@@ -30,25 +44,40 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_weight="1"
-        android:prompt="@string/prompt_makanan_berat" />
+        android:prompt="@string/prompt_makanan_berat"
+        app:layout_constraintBottom_toTopOf="@+id/example_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/flavor_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="292dp"
         android:layout_weight="1"
-        android:hint="Masukkan rasa yang kamu inginkan!"
-        android:inputType="text" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/mulai_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/example_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
-        android:text="Seperti asin, berkuah, pedas." />
+        android:fontFamily="@font/regular"
+        android:text="@string/inforasa"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/flavor_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/mulai_button"
@@ -57,5 +86,8 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/primary"
         android:padding="1dp"
-        android:text="MULAI" />
-</LinearLayout>
+        android:text="MULAI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
