@@ -8,10 +8,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.diyfood.Adapter.ViewPagerAdapter
 import com.example.diyfood.Survey.SurveyActivity
-import com.example.diyfood.WelcomeSession.FragmentWelcome1
-import com.example.diyfood.WelcomeSession.FragmentWelcome2
-import com.example.diyfood.WelcomeSession.FragmentWelcome3
-import com.example.diyfood.WelcomeSession.FragmentWelcome4
+import com.example.diyfood.ui.WelcomeSession.FragmentWelcome1
+import com.example.diyfood.ui.WelcomeSession.FragmentWelcome2
+import com.example.diyfood.ui.WelcomeSession.FragmentWelcome3
+import com.example.diyfood.ui.WelcomeSession.FragmentWelcome4
 import com.example.diyfood.databinding.ActivityMainBinding
 
 

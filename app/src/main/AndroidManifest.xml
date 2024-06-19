@@ -27,7 +27,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".WelcomeSession.SplashActivity"
+            android:name=".ui.WelcomeSession.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

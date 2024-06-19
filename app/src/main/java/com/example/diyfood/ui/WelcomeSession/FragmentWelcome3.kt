@@ -1,4 +1,4 @@
-package com.example.diyfood.WelcomeSession
+package com.example.diyfood.ui.WelcomeSession
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,8 +10,8 @@ import com.example.diyfood.R
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class FragmentWelcome2 : Fragment() {
-    // TODO: Rename and change types of parameters
+class FragmentWelcome3 : Fragment() {
+
     private var param1: String? = null
     private var param2: String? = null
 
@@ -27,13 +27,15 @@ class FragmentWelcome2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_welcome2, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_welcome3, container, false)
     }
 
     companion object {
+
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FragmentWelcome2().apply {
+            FragmentWelcome3().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

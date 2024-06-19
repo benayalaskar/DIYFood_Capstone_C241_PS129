@@ -1,4 +1,4 @@
-package com.example.diyfood.WelcomeSession
+package com.example.diyfood.ui.WelcomeSession
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

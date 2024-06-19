@@ -1,4 +1,4 @@
-package com.example.diyfood.WelcomeSession
+package com.example.diyfood.ui.WelcomeSession
 
 import android.content.Intent
 import android.os.Bundle
