@@ -17,5 +17,8 @@
     <string name="descSateKlatak">Sate Klathak adalah hidangan khas Yogyakarta yang terbuat dari daging kambing yang dipotong besar-besar dan ditusuk menggunakan tusukan besi yang panjang. Cara memasaknya adalah dengan cara dipanggang di atas bara api. Keunikan Sate Klathak terletak pada penggunaan tulang kambing sebagai tusukan sate, sehingga memberikan rasa yang khas dan lezat. Sate ini biasanya disajikan dengan bumbu kacang dan lalapan segar.</string>
     <string name="restaurant_1">"Sate Klathak Pak Pong - Jl. Kaliurang KM 5,6 No.2, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta.             "</string>
     <string name="back">Back</string>
+    <string name="seleramu">Kuliner Berdasarkan Seleramu</string>
+    <string name="sate_klathak">Sate Klathak</string>
+    <string name="nasi_gudeg">Nasi Gudeg</string>
 
 </resources>

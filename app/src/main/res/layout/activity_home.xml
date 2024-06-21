@@ -11,7 +11,7 @@
         android:fontFamily="@font/regular"
         android:gravity="left"
         android:padding="10dp"
-        android:text="Kuliner Berdasarkan Seleramu"
+        android:text="@string/seleramu"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/bold"
                 android:padding="10dp"
-                android:text="Sate Klathak"
+                android:text="@string/sate_klathak"
                 android:textSize="16sp" />
 
             <ImageView
@@ -58,7 +58,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/bold"
                 android:padding="10dp"
-                android:text="Nasi Gudeg"
+                android:text="@string/nasi_gudeg"
                 android:textSize="16sp" />
 
             <ImageView
